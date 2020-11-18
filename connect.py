@@ -4,7 +4,7 @@ mydb = mysql.connector.connect(
   host="localhost",
   user="" # Set your username made for SQL database,
   password="", # Set your password made for SQL database
-  database="passwords_collection"
+  database="" # Set your own Database name
 )
 
 mycursor = mydb.cursor()
